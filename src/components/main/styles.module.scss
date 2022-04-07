@@ -1,0 +1,52 @@
+.main {
+  padding: 5vh 0 0 6.5vw;
+
+  display: flex;
+  flex-direction: column;
+  gap: 6vh;
+}
+
+.h1 {
+  font-size: 2.4rem;
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+}
+
+.buttonBox {
+  display: flex;
+  align-items: center;
+  gap: 7vw;
+
+  
+  & div {
+    min-width: 12vw;
+
+    p {
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 1.2rem;
+    margin-bottom: 1.4vh;
+    }
+  }
+}
+
+
+.states {
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 1.2rem;
+  margin-bottom: 1.4vh;
+  color: #828282;
+  gap: 0;
+}
+
+.copyright {
+  margin-bottom: 5vh;
+  font-size: 1.4rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  color: #A9A9A9;
+
+  a {
+    font-weight: 700;
+    color: #A9A9A9;
+  }
+}

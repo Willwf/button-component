@@ -1,0 +1,95 @@
+.button {
+  height: 4vh;
+  padding: 2.5vh 1vw;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 1.4rem;
+  font-family: "Noto Sans", sans-serif;
+  border: none;
+  background: #E0E0E0;
+  border-radius: 0.6rem;
+
+  box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+
+  &:hover, &:focus, &.active {
+    background: #AEAEAE;
+  }
+}
+
+.outline {
+  background: none;
+  border: 1px solid #3D5AFE;
+  color: #3D5AFE;
+
+  box-shadow: none;
+
+  &:hover, &:focus, &.active {
+    background: rgba(41, 98, 255, 0.1);
+  }
+}
+
+.text {
+  background: transparent;
+  color: #3D5AFE;
+  ;
+
+  box-shadow: none;
+
+  &:hover, &:focus, &.active {
+    background: rgba(41, 98, 255, 0.1);
+  }
+}
+
+.disableShadow {
+  box-shadow: none;
+}
+
+button:disabled {
+  color: #9E9E9E;
+}
+
+.sm {
+  padding: 2.2vh 1vw;
+}
+
+.md {
+  padding: 2.5vh 1vw;
+}
+
+.lg {
+  padding: 2.8vh 1.3vw;
+}
+
+.primary {
+  color: white;
+  background-color: #2962FF;
+  
+  &:hover, &:focus, &.active {
+    background-color: #0039CB;
+  }
+}
+
+.secondary {
+  color: white;
+  background-color: #455A64;
+  
+  &:hover, &:focus, &.active {
+    background-color: #1C313A;
+  }
+}
+
+.danger {
+  color: white;
+  background-color: #D32F2F;
+  
+  &:hover, &:focus, &.active {
+    background-color: #9A0007;
+  }
+}
+
+.states {
+  color: #828282;
+}

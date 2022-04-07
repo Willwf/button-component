@@ -1,6 +1,6 @@
 import { Main } from "../main/main";
 import { Nav } from "../nav/nav";
-import styles from "./styles.module.css";
+import styles from "./styles.module.scss";
 
 function App() {
   return (
