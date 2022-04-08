@@ -61,12 +61,12 @@ export function Main() {
 
       <div className={styles.buttonBox}>
         <div>
-          <p>&lt;Button startIcon="local_grocery_store" /&gt;</p>
-          <Button startIcon="local_grocery_store" color="primary" />
+          <p>&lt;Button startIcon="add_shopping_cart" /&gt;</p>
+          <Button startIcon="add_shopping_cart" color="primary" />
         </div>
         <div>
-          <p>&lt;Button endIcon="local_grocery_store" /&gt;</p>
-          <Button endIcon="local_grocery_store" color="primary" />
+          <p>&lt;Button endIcon="add_shopping_cart" /&gt;</p>
+          <Button endIcon="add_shopping_cart" color="primary" />
         </div>
       </div>
 
